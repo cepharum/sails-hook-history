@@ -1,0 +1,9 @@
+{
+	"name": "sails-hook-history",
+	"version": "0.0.1",
+	"description": "transparently tracks changes to your models",
+	"main": "index.js",
+	"sails": {
+		"isHook": true
+	}
+}
