@@ -1,10 +1,14 @@
 {
-	"name": "sails-hook-history",
-	"version": "0.0.1",
-	"description": "transparently tracks changes to your models",
-	"main": "index.js",
-	"license": "MIT",
-	"sails": {
-		"isHook": true
-	}
+  "name": "sails-hook-history",
+  "version": "0.0.1",
+  "description": "transparently tracks changes to your models",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "https://github.com/cepharum/sails-hook-history",
+  "sails": {
+    "isHook": true
+  },
+  "dependencies": {
+    "marlinspike": "^1.0.0"
+  }
 }

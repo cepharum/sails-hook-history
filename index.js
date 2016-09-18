@@ -30,6 +30,29 @@
 module.exports = function historyHook( sails ) {
 
 	return {
+		routes: {
+			before: {
+				"POST /*": function( req, res, next ) {
 
+				},
+				"PUT /*": function( req, res, next ) {
+
+				},
+				"DELETE /*": function( req, res, next ) {
+
+				}
+			},
+			after: {
+				"POST /*": function( req, res, next ) {
+
+				},
+				"PUT /*": function( req, res, next ) {
+
+				},
+				"DELETE /*": function( req, res, next ) {
+
+				}
+			}
+		}
 	};
 };
